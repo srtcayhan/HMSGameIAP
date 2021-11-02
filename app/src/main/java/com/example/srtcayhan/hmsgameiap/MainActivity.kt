@@ -54,8 +54,11 @@ class MainActivity : AppCompatActivity() {
         binding.btnPlayerEventStart.setOnClickListener { timeReportStart() }
         binding.btnPlayerEventEnd.setOnClickListener { timeReportEnd() }
         binding.btnPlayerExtraInfo.setOnClickListener { getPlayerExtra() }
-
         logTextView = findViewById<View>(R.id.LogText) as TextView
+        binding.btnIap.setOnClickListener {
+            val intent = Intent(this, ProductActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     /**
@@ -103,7 +106,7 @@ class MainActivity : AppCompatActivity() {
         playersClient = Games.getPlayersClient(this)
         val playerTask = playersClient.currentPlayer
         playerTask.addOnSuccessListener { player ->
-            playerID = player.getPlayerId();
+            playerID = player.getPlayerId()
             Log.i(TAG, "getPlayerInfo Success, player info: " + player.playerId)
         }.addOnFailureListener { e -> //  Failed to obtain player information.
             if (e is ApiException) {

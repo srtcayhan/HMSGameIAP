@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">HMSGameIAP</string>
+    <string name="publickey">MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAhQlir8avIMN+c9ovk0j2FbVnGILJJ7yN/9yGXJmFAKCJUeznl2P2JA7fZTu3TP/LGMJNxyXCrz2jGad0+e7evnjyWWnBjZV5Y7HSKW4JHs/rTAfdP2jybf+45A4gdAsvuChuLuyHruk++DFnDUWsaX7g7rkjukfK3id8zU5Ozlb7XT8Z8eZmChsCTYr6QV1Y7T4fTi4D8U7XT0NLLJr1kwJHI99Orv3nqfbuEKwue5CoROSfiISFWj9BZZp5Bu43G4rS1udU8cJO0KC1tWOZjiQD82j4htzZD7tNICuWWwLVRqSsLsscJSNn61ytKiVE3trhT4HJjU59eOmxsdpfyQ9+IErMI8B5yO+qhurBDW5SF4lbK2JCbNcUhlnElOyw1ZmCNEM4sFmd1iRCItUKGEIHGRhSLNkAs7WhP+Fpa2w9YXbME2BBA2shGDt2IqfiubFf1lt85LzTAssscg75Flq0GCzvEoEZtxMraOLQhdordP9lVN0stn78LGa5JGIVAgMBAAE=</string>
+    <string name="product_name">product name</string>
+    <string name="product_price">product price</string>
+    <string name="init">init</string>
+    <string name="signin">signin</string>
+    <string name="get_current_player">Get Current Player</string>
+    <string name="submitplayerevent_begin">SubmitPlayerEvent_Begin</string>
+    <string name="submitplayerevent_end">SubmitPlayerEvent_End</string>
+    <string name="getplayerextrainfo">GetPlayerExtraInfo</string>
+    <string name="in_app_purchases">In App Purchases</string>
+
 </resources>
